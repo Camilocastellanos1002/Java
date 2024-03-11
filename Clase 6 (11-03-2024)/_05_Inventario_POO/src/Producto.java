@@ -1,4 +1,4 @@
-public abstract class Producto {
+public  class Producto {
     private int id;
     private String nombre;
     private double precio;
@@ -31,5 +31,14 @@ public abstract class Producto {
 
     public void setPrecio(double precio) {
         this.precio = precio;
+    }
+
+    @Override
+    public String toString() {
+        return "Producto{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", precio=" + precio +
+                '}';
     }
 }

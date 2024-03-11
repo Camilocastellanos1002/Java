@@ -31,8 +31,8 @@ public class Inventario {
     //metodo para listar los productos
     public void listarProductos(){
         for (Producto producto : this.listaProductos){
-            System.out.println("ID "+producto.getId()+
-                    "Nombre: "+producto.getNombre()+
+            System.out.println("ID: "+producto.getId()+"\n"+
+                    "Nombre: "+producto.getNombre()+"\n"+
                     "Precio: "+producto.getPrecio());
         }
     }
