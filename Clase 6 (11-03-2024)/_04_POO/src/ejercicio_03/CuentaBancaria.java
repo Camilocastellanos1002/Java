@@ -1,3 +1,5 @@
+package ejercicio_03;
+
 public class CuentaBancaria {
     private String titular;
     private Double balance;
@@ -23,7 +25,7 @@ public class CuentaBancaria {
 
     @Override
     public String toString() {
-        return "CuentaBancaria{" +
+        return "ejercicio_03.CuentaBancaria{" +
                 "titular='" + titular + '\'' +
                 ", balance=" + balance +
                 '}';

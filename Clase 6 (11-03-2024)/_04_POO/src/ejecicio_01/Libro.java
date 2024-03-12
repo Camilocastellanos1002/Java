@@ -1,3 +1,5 @@
+package ejecicio_01;
+
 public class Libro {
 
     //atributos
@@ -46,7 +48,7 @@ public class Libro {
     //metodo toString() modificado ("Plomorfismo") para imprimr datos
     @Override   //decorador
     public String toString() {
-        return "Libro{" +
+        return "ejecicio_01.Libro{" +
                 "titulo='" + titulo + '\'' +
                 ", autor='" + autor + '\'' +
                 ", publicacion='" + publicacion + '\'' +

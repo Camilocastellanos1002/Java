@@ -1,3 +1,5 @@
+package ejercicio_02;
+
 public class Empleado {
 
     private String nombre;
@@ -50,7 +52,7 @@ public class Empleado {
 
     @Override
     public String toString() {
-        return "Empleado{" +
+        return "ejercicio_02.Empleado{" +
                 "nombre='" + nombre + '\'' +
                 ", cargo='" + cargo + '\'' +
                 ", salario=" + salario +
